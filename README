@@ -2,8 +2,7 @@ A sample app demonstrating the use of the Evernote API in a Windows 8 Metro styl
 
 -----
 
-To use the demo, update EvernoteWrapper/Wrapper.cs with your Evernote API key and
-TestApp/BlankPage.xaml.cs with your Evernote sandbox username and password.
+To use the demo, update EvernoteWrapper/Wrapper.cs with your Evernote API key and TestApp/BlankPage.xaml.cs with your Evernote sandbox username and password.
 
 If you don't have an API key, you can get one at http://dev.evernote.com/documentation/cloud.
 
@@ -11,7 +10,6 @@ If you don't have an API key, you can get one at http://dev.evernote.com/documen
 
 The Evernote SDK is contained in the Evernote project, which builds into a class library.
 
-The business logic that exercises the SDK is contained in the EvernoteWrapper project,
-which builds into a WinMD File.
+The business logic that exercises the SDK is contained in the EvernoteWrapper project, which builds into a WinMD File.
 
 The C# Metro app uses the APIs exposed by the EvernoteWrapper project to do useful things.
